@@ -1,0 +1,109 @@
+.iot_main_class_container {
+    background: #fff;
+    padding: 25px;
+    margin-right: 20px;
+}
+
+.iot_heading h2{
+    font-size: 30px;
+}
+
+.iot_class_sc .screen_header{
+    background: #b79ebb;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.screen_header_body_content.hide {
+    display: none;
+}
+
+
+
+.iot_class_sc  .screen_header.screens_checked + .screen_header_body_content {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+
+div.iot_class_sc {
+    margin: 10px 0;
+}
+
+.iot_class_sc .btn.btn-success {
+    color: #fff;
+    background: #56004f;
+    border: none;
+    padding: 10px;
+    /* font-size: 12px; */
+    font-weight: 600;
+}
+
+
+.screen_header h3{
+    font-size: 20px;
+    margin-left: 20px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.screen_header_body_content table{
+    width: 100%;
+}
+
+.screen_header_body_content table td{
+    vertical-align: top;
+}
+
+.screen_header_body_content table td input,.screen_header_body_content table td textarea{
+    width: 100%; 
+} 
+
+.screen_header .switch {
+    float: right;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.screen_header.screen_hide + .screen_header_body_content {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.iot_class_sc .form-class {
+    margin-top: 8px;
+}
+
+.iot_class_sc label{
+    font-weight: 700;
+}
+
+.iot_class_sc  .btn_remove {
+    color: #fff;
+    background: #bf0f0f;
+    border: none;
+    padding: 6px;
+    width: 5%;
+}
+
+
+.iot_class_sc input, textarea {
+    border-radius: unset !important;
+}
+
+input[type="submit"] {
+    border: none;
+    background: rebeccapurple;
+    color: #fff;
+    padding: 7px;
+    width: 10%;
+    font-size: 21px;
+    vertical-align: middle;
+}
+
+/* https://codepen.io/w3tweaks/embed/vYLGyYP?default-tab=result&theme-id=dark */
+/* https://codepen.io/brendansparrow/pen/QjRmKv */
+/* https://www.webslesson.info/2016/02/dynamically-add-remove-input-fields-in-php-with-jquery-ajax.html */
